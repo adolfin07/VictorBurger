@@ -498,8 +498,14 @@ header.sticky {
 /*media(responsive)*/
 
 @media(max-width:1545px) {
+    .navlist a {
 
-    header {
+        font-size: 15px;
+
+
+    }
+
+    * header {
         padding: 22px 4%;
         transition: .2s;
     }
@@ -660,4 +666,14 @@ header.sticky {
         margin-top: 10px;
     }
 
+}
+
+
+/*EXTRAS*/
+
+.bx-phone-call,
+.bx-food-menu,
+.bx-time {
+    color: var(--main-color);
+    font-size: 55px;
 }
